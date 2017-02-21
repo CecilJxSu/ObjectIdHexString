@@ -1,0 +1,28 @@
+{
+  "name": "objectid-tohexstring",
+  "version": "1.0.0",
+  "description": "MongoDB ObjectId toHexString",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --ui bdd --bail --check-leaks --recursive tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CecilJxSu/ObjectIdHexString.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "ObjectId",
+    "toHexString"
+  ],
+  "author": "CecilJxSu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CecilJxSu/ObjectIdHexString/issues"
+  },
+  "homepage": "https://github.com/CecilJxSu/ObjectIdHexString#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.2.0"
+  }
+}
